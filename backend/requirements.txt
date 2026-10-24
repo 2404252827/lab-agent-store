@@ -1,0 +1,15 @@
+fastapi==0.115.13
+uvicorn==0.34.0
+sqlalchemy[asyncio]==2.0.36
+aiomysql==0.3.2
+pymysql==1.1.1
+pydantic-settings==2.7.1
+bcrypt==5.0.0
+PyJWT==2.13.0
+aiofiles==24.1.0
+python-multipart==0.0.29
+langchain==1.2.12
+langchain-openai==1.6.2
+langgraph==1.1.10
+pymilvus==2.5.18
+asyncpg==0.30.0

@@ -1,0 +1,62 @@
+.reservation-page {
+  width: 100%;
+}
+
+.reservation-heading {
+  margin-bottom: 20px;
+}
+
+.reservation-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #303133;
+}
+
+.reservation-subtitle {
+  margin-top: 6px;
+  color: #909399;
+  font-size: 13px;
+}
+
+.reservation-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.reservation-tabs {
+  flex: 1;
+  min-width: 280px;
+}
+
+/* 标签栏自带下边距，会与筛选行错位 */
+.reservation-tabs :deep(.el-tabs__header) {
+  margin-bottom: 0;
+}
+
+.reservation-search__select {
+  width: 200px;
+}
+
+.reservation-noop {
+  color: #c0c4cc;
+}
+
+.reservation-pagination {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+
+@media (max-width: 767px) {
+  .reservation-search__select {
+    width: 100%;
+  }
+
+  .reservation-pagination {
+    justify-content: center;
+  }
+}
